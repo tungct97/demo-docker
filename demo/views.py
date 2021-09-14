@@ -24,4 +24,5 @@ class NoteViewSet(viewsets.ViewSet):
             {'id': note.id, 'name': note.name, 'description': note.description}
             for note in notes
         ]
+        
         return Response(response, status=status.HTTP_201_CREATED)
