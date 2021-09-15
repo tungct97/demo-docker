@@ -1,9 +1,8 @@
-from django.conf import settings
-
 from rest_framework import authentication
+from rest_framework.exceptions import AuthenticationFailed as RestAuthenticationFailed
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework_simplejwt.exceptions import InvalidToken
-from rest_framework.exceptions import AuthenticationFailed as RestAuthenticationFailed
+
 from demodocker.middlewares.http_exception import AuthenticationFailed
 
 

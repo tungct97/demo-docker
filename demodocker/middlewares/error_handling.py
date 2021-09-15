@@ -1,11 +1,9 @@
 import logging
 
-from rest_framework.views import exception_handler
 from django.conf import settings
 from django.http import JsonResponse
 from rest_framework import status
 # from marshmallow.exceptions import ValidationError
-from rest_framework.exceptions import APIException
 from rest_framework_simplejwt.exceptions import InvalidToken
 
 # from apps.user.models import LanguageChoice
