@@ -1,4 +1,5 @@
 from django.contrib import admin
+
 from demo.models import Note, User
 
 
@@ -6,6 +7,7 @@ from demo.models import Note, User
 
 class NoteAdmin(admin.ModelAdmin):
     pass
+
 
 class UserAdmin(admin.ModelAdmin):
     pass
