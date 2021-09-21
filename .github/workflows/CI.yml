@@ -61,7 +61,8 @@ jobs:
 
       - name: Run tests
         run: |
-          coverage run manage.py test apps
+#          coverage run manage.py test apps
+          coverage run manage.py test
           coverage report -m
 #        working-directory: ./backend/catdata
 #    - name: Install dependencies
